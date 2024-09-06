@@ -1,10 +1,15 @@
 ## Instructions on how to run the Jupyter notebooks 
 
-All preprocessing, exploratory data analysis (EDA), feature engineering, model training, and prediction of target variables were carried out in Jupyter notebooks. The process follows a specific sequence: the first notebook is 'merging_data.ipynb', followed by 'eda.ipynb', and then the 'model.ipynb' notebook. All three notebooks are stored in the notebooks folder.
+All preprocessing, exploratory data analysis (EDA), feature engineering, model training, and prediction of target variables were carried out in Jupyter notebooks. The notebooks should be reviewed in a particular sequential order:
+1. 'merging_data.ipynb'
+2. 'eda.ipynb'
+3. 'model.ipynb' 
 
-This ensures a structured workflow where each step builds on the previous one.
+The first one covers merging datasets into a single file, the second focuses on EDA, and the third contains data preprocessing and model training. This ensures a structured workflow where each following step builds on the previous one.
 
-All EDA analysis, model selection thought process, and model evaluation are covered in the Jupyter notebooks. These steps ensure a comprehensive workflow, from data exploration and feature engineering to choosing the best models and evaluating their performance, all organized within the notebooks for clarity and reproducibility.
+All three notebooks are stored in the notebooks folder.
+
+All EDA analysis, model selection thought process and model evaluation are covered in the Jupyter notebooks. These steps ensure a comprehensive workflow, from data exploration and feature engineering to choosing the best models and evaluating their performance, all organized within the notebooks for clarity and reproducibility.
 
 
 ## Instructions on how to run the solution
