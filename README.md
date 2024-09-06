@@ -20,20 +20,17 @@ Ensure you have the necessary libraries installed. You can use Poetry for this, 
 ```
 poetry install
 ```
-###  Save the Python Scripts
+###  Python Scripts
 
 - **`merging_data.py`**: This script handles data merging.
     Located `app/preprocessing/merging_data.py`
+
 - **`eda.py`**: This script performs exploratory data analysis (EDA).
     Located `app/preprocessing/eda.py`
-- **`model.py`**: This script is used for modeling.
+
+-  **`model.py`**: This script is used for modeling.
     Located `app/models/model.py`
 
-Copy each code segment into separate Python files and save them as:
-
-- `merging_data.py`
-- `eda.py`
-- `model.py`
 ###  Run the Scripts in Sequence
 
 The scripts need to be run in the following order due to dependencies between them:
